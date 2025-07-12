@@ -30,6 +30,15 @@ In Japanese human-robot interaction (HRI), understanding ambiguous object refere
 
 J-ORA is designed to support **fine-grained multimodal understanding** and **language grounding** for tasks critical to domestic service robots, including object recognition, action prediction, and spatial reference disambiguation.
 
+
+## 🌟 Overview
+
+<div style="background-color:#ffe0f7; border-left: 5px solid #cc00aa; padding: 1em; margin-bottom: 1em;">
+
+Welcome to our benchmark website! This section summarizes the motivation, design, and findings of our work.
+
+</div>
+
 ---
 
 ## 📦 Dataset Summary
