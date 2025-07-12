@@ -9,6 +9,15 @@
 
 ---
 
+<div style="background-color:#f2f8ff; border-left: 5px solid #007acc; padding: 1em; margin-bottom: 1em;">
+
+## 🌟 Overview
+
+Welcome to our benchmark website! This section summarizes the motivation, design, and findings of our work.
+
+</div>
+
+
 ## 🌟 Overview
 
 Modern robots must understand complex commands involving objects, references, and actions. Yet most datasets in robot vision-language learning are limited to English and rely on short prompts or synthetic setups. **J-ORA** addresses this gap by introducing a comprehensive **multimodal dataset grounded in Japanese**, containing real-world images and human-annotated linguistic references, actions, and object descriptions.
