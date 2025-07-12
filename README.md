@@ -4,21 +4,12 @@
 
 **A Multimodal Dataset for Grounding Language and Vision in Japanese Robotics**
 
-*Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, Tatsuya Hiraoka*  
-*NAIST, MBZUAI, Fujitsu Research*
+*Jesse Atuhurra, Hidetaka Kamigaito, Taro Watanabe, Koichiro Yoshino*  
+*NAIST, Guardian Robot Project RIKEN*
 
 [**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) | [**Code**](https://github.com/jatuhurrra/J-ORA) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/jatuhurrra/J-ORA)
 
 ---
-
-<div style="background-color:#e0ffff; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
-
-## 🌟 Overview
-
-Welcome to our benchmark website! This section summarizes the motivation, design, and findings of our work.
-
-</div>
-
 
 ## 🌟 Overview
 
