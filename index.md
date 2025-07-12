@@ -85,7 +85,7 @@ Each image is paired with:
 - Bounding boxes and category labels.
 - Reference relationships and action labels.
 
-<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/DataCollectionPipeline?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure"> 
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/DataCollectionPipeline.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure"> 
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Tasks Definitions section  ++++++++ ++++++++ ++++++++ -->
 
