@@ -2,11 +2,11 @@
 
 Including a **Multimodal Dataset for Grounding Language and Vision in Japanese Robotics**
 
-*Jesse Atuhurra<sup>1,2</sup>, Hidetaka Kamigaito<sup>1</sup>, Taro Watanabe<sup>1</sup>, Koichiro Yoshino<sup>1,2</sup>*  
+*[<u>Jesse Atuhurra</u>](https://www.2021atajesse.com/)<sup>1,2</sup>, [<u>Hidetaka Kamigaito</u>](https://sites.google.com/site/hidetakakamigaito)<sup>1</sup>, [<u>Taro Watanabe</u>](https://sites.google.com/site/tarowtnb/)<sup>1</sup>, [<u>Koichiro Yoshino</u>](https://pomdp.net/)<sup>1,2</sup>*  
 <sup>1</sup> NAIST  
 <sup>2</sup> RIKEN Guardian Robot Project
 
-## 🎉 Accepted to IROS 2025!
+## 🎉 Accepted to IROS 2025 🤖!
 
 [**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) | [**Code**](https://github.com/jatuhurrra/J-ORA) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/jatuhurrra/J-ORA)
 
