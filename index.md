@@ -1,9 +1,11 @@
 # J-ORA: A Robot Perception Framework for Japanese Object Identification, Reference Resolution, and Next Action Prediction
 
-**And a Multimodal Dataset for Grounding Language and Vision in Japanese Robotics**
+Including a **Multimodal Dataset for Grounding Language and Vision in Japanese Robotics**
 
-*Jesse Atuhurra, Hidetaka Kamigaito, Tatsuya Hiraoka*  
-*NAIST, RIKEN Guardian Robot Project*
+*Jesse Atuhurra<sup>1,2</sup>, Hidetaka Kamigaito<sup>1</sup>, Taro Watanabe<sup>1</sup>, Koichiro Yoshino<sup>1,2</sup>*  
+<sup>1</sup> NAIST  
+<sup>2</sup> RIKEN Guardian Robot Project
+
 ## 🎉 Accepted to IROS 2025!
 
 [**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) | [**Code**](https://github.com/jatuhurrra/J-ORA) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/jatuhurrra/J-ORA)
@@ -24,14 +26,14 @@ Robot perception is susceptible to object occlusions, constant object movements,
 Yet, such *perception* is crucial to make the robot more useful in accomplishing tasks, especially when the robot *interacts* with humans.
 We leverage *vision language models (VLMs)* to keep track of such object changes and also introduce an *object attribute annotations framework* to describe objects.
 
-<div style="background-color:#e0ffff; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
+<div style="background-color:#ffe0f7; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
 🌟 Highlight: Our framework is effective at improving VLM performance across tasks and non-English languages, e.g., Japanese.
 </div>
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Problem section  ++++++++ ++++++++ ++++++++ -->
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
-  🚀 The Problem
+  🧩 The Problem
 </div>
 
 Modern robots must understand complex commands involving objects, references, and actions. 
@@ -110,7 +112,7 @@ We compare **zero-shot and fine-tuned** settings under multiple prompting styles
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Key Findings section  ++++++++ ++++++++ ++++++++ -->
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
-  Key Findings
+ 🔍 Key Findings
 </div>
 
 - **Limited Zero-Shot Transfer**: Even top models underperform in Japanese disambiguation and action understanding.
