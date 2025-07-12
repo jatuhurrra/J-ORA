@@ -9,7 +9,7 @@
 
 ---
 
-<div style="background-color:#f2f8ff; border-left: 5px solid #007acc; padding: 1em; margin-bottom: 1em;">
+<div style="background-color:#e0ffff; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
 
 ## 🌟 Overview
 
