@@ -9,6 +9,10 @@
 
 ---
 
+<div style="width: 100%; background-color: #cc00aa; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  Introduction
+</div>
+
 <div style="background-color:#e0ffff; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
 
 ## 🌟 Overview
