@@ -16,7 +16,7 @@ Including a **Multimodal Dataset for Grounding Language and Vision in Japanese R
 </div>
 -->
 
-<video width="640" height="360" controls>
+<video style="width: 100%; height: auto;" controls>
   <source src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/IROSvideo.mp4?raw=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
