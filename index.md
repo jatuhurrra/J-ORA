@@ -16,6 +16,11 @@ Including a **Multimodal Dataset for Grounding Language and Vision in Japanese R
 </div>
 -->
 
+<video width="640" height="360" controls>
+  <source src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/IROSvideo.mp4?raw=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Overview section (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
