@@ -48,6 +48,8 @@ Yet most datasets in robot vision-language learning are limited to English and r
 🌟 Highlight: Our framework is effective at improving VLM performance across tasks and non-English languages, e.g., Japanese.
 </div>
 
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/scenes.png?raw=true" style="width: 100%; height: auto;" alt="Scenes Figure">
+
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Motivation section  ++++++++ ++++++++ ++++++++ -->
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
@@ -60,7 +62,9 @@ Yet few datasets exist for grounded multimodal reasoning in Japanese, particular
 
 J-ORA is designed to support **fine-grained multimodal understanding** and **language grounding** for tasks critical to domestic service robots, including object recognition, action prediction, and spatial reference disambiguation.
 
-<!-- ++++++++++++++++ ++++++++ ++++++++ This is the Datasets section  ++++++++ ++++++++ ++++++++ -->
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/PaperIntroFig.png?raw=true" style="width: 100%; height: auto;" alt="Intro Figure">
+
+<!-- ++++++++++++++++ ++++++++ ++++++++ This is the Datasets section  ++++++++ ++++++++ ++++++++ --> 
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   📦 Dataset Summary
@@ -80,6 +84,8 @@ Each image is paired with:
 - Polygon-level object segmentations.
 - Bounding boxes and category labels.
 - Reference relationships and action labels.
+
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/DataCollectionPipeline?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure"> 
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Tasks Definitions section  ++++++++ ++++++++ ++++++++ -->
 
