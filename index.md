@@ -85,7 +85,7 @@ Each image is paired with:
 - Bounding boxes and category labels.
 - Reference relationships and action labels.
 
-<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/DataCollectionPipeline.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure"> 
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/DataCollectionPipeline.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results1.png
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Tasks Definitions section  ++++++++ ++++++++ ++++++++ -->
 
@@ -119,6 +119,12 @@ We benchmark 6 leading **Vision-Language Models (VLMs)** on J-ORA, including:
 - Japanese multimodal fine-tuned variants
 
 We compare **zero-shot and fine-tuned** settings under multiple prompting styles.
+
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results1.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results2.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results3.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results4.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
+
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Key Findings section  ++++++++ ++++++++ ++++++++ -->
 
