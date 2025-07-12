@@ -12,9 +12,9 @@
   🎉 Accepted to IROS 2025!
 </div>
 
-<!-- ++++++++++++++++ ++++++++ ++++++++ This is the Overview section  ++++++++ ++++++++ ++++++++ --> (( ORIGINAL MAGENTA HERE cc00aa ))
+<!-- ++++++++++++++++ ++++++++ ++++++++ This is the Overview section (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   🌟 Overview
 </div>
 
@@ -28,7 +28,7 @@ We leverage *vision language models (VLMs)* to keep track of such object changes
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Problem section  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   🚀 The Problem
 </div>
 
@@ -41,7 +41,7 @@ Yet most datasets in robot vision-language learning are limited to English and r
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Motivation section  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   🚀 Motivation and J-ORA
 </div>
 
@@ -53,7 +53,7 @@ J-ORA is designed to support **fine-grained multimodal understanding** and **lan
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Datasets section  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   📦 Dataset Summary
 </div>
 
@@ -74,7 +74,7 @@ Each image is paired with:
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Tasks Definitions section  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   🧠 Tasks in Detail
 </div>
 
@@ -91,7 +91,7 @@ Each task is framed as a **multimodal question answering** problem and can be ev
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Evaluations section  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   🧪 Evaluation and Baselines
 </div>
 
@@ -107,7 +107,7 @@ We compare **zero-shot and fine-tuned** settings under multiple prompting styles
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Key Findings section  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   Key Findings
 </div>
 
@@ -129,7 +129,7 @@ We compare **zero-shot and fine-tuned** settings under multiple prompting styles
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ Below are the Use Cases/Resources/Citation/Contact sections  ++++++++ ++++++++ ++++++++ -->
 
-<div style="width: 100%; background-color: #ffccf2; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+<div style="width: 100%; background-color: #e0ffff; color: white; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   Use Cases/Resources
 </div>
 
