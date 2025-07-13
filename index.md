@@ -8,7 +8,7 @@ Including a **Multimodal Japanese Dataset for Grounding Language and Vision in R
 
 ## 🎉 Accepted to IROS 2025 🤖!
 
-[**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) | [**Code**](https://github.com/jatuhurrra/J-ORA) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/jatuhurrra/J-ORA)
+[**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) | [**Code**](https://github.com/jatuhurrra/OpenPerception) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/atamiles/J-ORA)
 
 <!--
 <div style="width: 100%; background-color: #ffccf2; color: #800080; text-align: center; padding: 1em; font-size: 1.4em; font-weight: bold; border-radius: 8px; margin: 2em 0;">
@@ -164,7 +164,7 @@ We compare **zero-shot and fine-tuned** settings for VLMs **with or without obje
 <!-- ++++++++++++++++ ++++++++ ++++++++ Below are the Use Cases/Resources/Citation/Contact sections  ++++++++ ++++++++ ++++++++ -->
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
-  Use Cases/Resources
+  Use Cases, Resources, Citation, Contact & License
 </div>
 
 ## 🔍 Use Cases
@@ -179,9 +179,8 @@ J-ORA supports research in:
 
 ## 🛠 Resources
 
-- [**Code**](https://github.com/jatuhurrra/J-ORA): Task pipelines, training scripts, and evaluation metrics.
+- [**Code**](https://github.com/jatuhurrra/OpenPerception): Task pipelines, training scripts, and evaluation metrics.
 - [**Dataset**](https://huggingface.co/datasets/jatuhurrra/J-ORA): Full annotations and image data.
-- [**Pretrained Models**](https://huggingface.co/jatuhurrra/J-ORA-models): Multilingual VLMs fine-tuned on J-ORA.
 
   The data introduced in this project extends the [**J-CRe3**](https://github.com/riken-grp/J-CRe3) data.
 
