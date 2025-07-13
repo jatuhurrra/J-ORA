@@ -45,7 +45,7 @@ Modern robots must understand complex commands involving objects, references, an
 Yet most datasets in robot vision-language learning are limited to English and rely on short prompts or synthetic setups. 
 **J-ORA** addresses this gap by introducing a comprehensive **multimodal dataset grounded in Japanese**, containing real-world images and human-annotated linguistic references, actions, and object descriptions.
 <div style="background-color:#ffe0f7; border-left: 5px solid #cc00aa; padding: 1em; margin-bottom: 1em;">
-🌟 Highlight: Our framework is effective at improving VLM performance across tasks and non-English languages, e.g., Japanese.
+🌟 Highlight: We aim to train robots to excellently perceive and understand the scene despite the dynamic changes in the scene.
 </div>
 
 <img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/scenes.png?raw=true" style="width: 100%; height: auto;" alt="Scenes Figure">
@@ -119,12 +119,12 @@ We benchmark 6 leading **Vision-Language Models (VLMs)** on J-ORA, including:
 - Japanese multimodal fine-tuned variants
 
 We compare **zero-shot and fine-tuned** settings under multiple prompting styles.
-
-<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results1.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
-<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results2.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
-<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results3.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
-<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results4.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure">  
-
+<div align="center">
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results1.png?raw=true" style="width: 60%; height: auto;" alt="Data Collection Pipeline Figure">
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results2.png?raw=true" style="width: 60%; height: auto;" alt="Data Collection Pipeline Figure">  
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results3.png?raw=true" style="width: 60%; height: auto;" alt="Data Collection Pipeline Figure">  
+<img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results4.png?raw=true" style="width: 60%; height: auto;" alt="Data Collection Pipeline Figure">  
+</div>
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Key Findings section  ++++++++ ++++++++ ++++++++ -->
 
