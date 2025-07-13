@@ -47,6 +47,7 @@ Moreover, modern robots must understand complex commands involving objects, refe
 Lastly, robots need to comprehend and make sense of commands and dialogues in numerous languages. 
 Yet, most datasets in robot vision-language learning are limited to English and rely on short prompts or synthetic setups. 
 **J-ORA** addresses this gap by introducing a comprehensive **multimodal dataset grounded in Japanese**, containing real-world images and human-annotated linguistic references, actions, and object descriptions.
+
 <div style="background-color:#ffe0f7; border-left: 5px solid #cc00aa; padding: 1em; margin-bottom: 1em;">
 🌟 Highlight: We aim to train robots to excellently perceive and understand the scene despite the dynamic changes in the scene.
 </div>
