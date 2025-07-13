@@ -1,6 +1,6 @@
 # J-ORA: A Robot Perception Framework for Japanese Object Identification, Reference Resolution, and Next Action Prediction
 
-Including a **Multimodal Dataset for Grounding Language and Vision in Japanese Robotics**
+Including a **Multimodal Japanese Dataset for Grounding Language and Vision in Robotics**
 
 *[<u>Jesse Atuhurra</u>](https://www.2021atajesse.com/)<sup>1,2</sup>, [<u>Hidetaka Kamigaito</u>](https://sites.google.com/site/hidetakakamigaito)<sup>1</sup>, [<u>Taro Watanabe</u>](https://sites.google.com/site/tarowtnb/)<sup>1</sup>, [<u>Koichiro Yoshino</u>](https://pomdp.net/)<sup>1,2</sup>*  
 <sup>1</sup> NAIST  
@@ -29,10 +29,11 @@ Including a **Multimodal Dataset for Grounding Language and Vision in Japanese R
 
 Robot perception is susceptible to object occlusions, constant object movements, and ambiguities within the scene that make *perceiving* those objects more challenging.
 Yet, such *perception* is crucial to make the robot more useful in accomplishing tasks, especially when the robot *interacts* with humans.
-We leverage *vision language models (VLMs)* to keep track of such object changes and also introduce an *object attribute annotations framework* to describe objects.
+We introduce an **object-attribute annotations framework** to describe objects, from the robot's **ego-centric view**, and keep track of changes in object attributes.
+Then, we leverage *vision language models (VLMs)* to interpret objects and their attributes. After that, the VLMs facilitate the robot to accomplish tasks such as **object identification, reference resolution, and next-action prediction**. 
 
 <div style="background-color:#ffe0f7; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
-🌟 Highlight: Our framework is effective at improving VLM performance across tasks and non-English languages, e.g., Japanese.
+🌟 Highlight: Our framework is effective in representing dynamic *object changes* in non-English languages, e.g., Japanese.
 </div>
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Problem section  ++++++++ ++++++++ ++++++++ -->
@@ -41,8 +42,10 @@ We leverage *vision language models (VLMs)* to keep track of such object changes
   🧩 The Problem
 </div>
 
-Modern robots must understand complex commands involving objects, references, and actions. 
-Yet most datasets in robot vision-language learning are limited to English and rely on short prompts or synthetic setups. 
+Robot perception in the real world faces challenges of **(1) dynamically changing scenes in which the people and objects undergo constant changes, and (2) the co-existence of similar objects in a scene**. 
+Moreover, modern robots must understand complex commands involving objects, references, and actions. 
+Lastly, robots need to comprehend and make sense of commands and dialogues in numerous languages. 
+Yet, most datasets in robot vision-language learning are limited to English and rely on short prompts or synthetic setups. 
 **J-ORA** addresses this gap by introducing a comprehensive **multimodal dataset grounded in Japanese**, containing real-world images and human-annotated linguistic references, actions, and object descriptions.
 <div style="background-color:#ffe0f7; border-left: 5px solid #cc00aa; padding: 1em; margin-bottom: 1em;">
 🌟 Highlight: We aim to train robots to excellently perceive and understand the scene despite the dynamic changes in the scene.
@@ -70,22 +73,45 @@ J-ORA is designed to support **fine-grained multimodal understanding** and **lan
   📦 Dataset Summary
 </div>
 
-**J-ORA** contains **1,100 real-world tabletop images** annotated with rich multimodal information:
+**J-ORA** contains **142 real-world image-dialogue pairs** annotated with rich multimodal information:
 
-- **Objects**: 6,500+ object instances from 80 household object categories.
+- **Objects**: 1,817 object attribute annotations from 160 unique object classes.
+- **Dialogues**: 142 dialogues recorded in the real world.
+- **Dialogue Turns**: 15 Average turns per dialogue.
+- **Utterances**: 2,131 dialogue utterances.
 - **Languages**: All instructions are provided in **Japanese**, with gold-standard annotations.
 - **Tasks**: Each instance supports three core tasks:
-  - **Object Identification (OI)**: "Which object is being referred to?"
-  - **Reference Disambiguation (RD)**: "Which visual region best matches a given referring expression?"
-  - **Action Prediction (AP)**: "What action is implied or requested?"
+  - **Object Identification**: "Which object is being referred to?"
+  - **Reference Reference**: "Which visual region best matches a given referring expression?"
+  - **Action Prediction**: "What action is implied or requested?"
 
 Each image is paired with:
-- A Japanese natural language instruction.
-- Polygon-level object segmentations.
+- Dialogue texts in Japanese.
+- Object-attribute annotations.
 - Bounding boxes and category labels.
-- Reference relationships and action labels.
+- Reference relationships.
+
+Each object is described using these features: **category, color, shape, size, material, surface texture, position, state, functionality, brand, interactivity, and proximity to the person**.
 
 <img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/DataCollectionPipeline.png?raw=true" style="width: 100%; height: auto;" alt="Data Collection Pipeline Figure"> 
+
+## 📊 Quantitative Summary of the J-ORA dataset
+
+| **Feature**                    | **Value**              |
+|--------------------------------|------------------------|
+| Hours                          | 3 hrs 3 min 44 sec     |
+| Unique dialogues               | 93                     |
+| Total dialogues                | 142                    |
+| Utterances                     | 2,131                  |
+| Sentences                      | 2,652                  |
+| Average turns per dialogue     | 15                     |
+| Average duration per turn      | 77 sec                 |
+| Total turns                    | 2,131                  |
+| Image-Dialogue pairs           | 142                    |
+| Unique object classes          | 160                    |
+| Object attribute annotations   | 1,817                  |
+| Languages                      | Japanese               |
+
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Tasks Definitions section  ++++++++ ++++++++ ++++++++ -->
 
@@ -94,15 +120,15 @@ Each image is paired with:
 </div>
 
 ### 🟡 Object Identification (OI)
-> Given a Japanese utterance and an image, identify which object is being referenced.
+> Given a Japanese utterance and an image, identify all objects mentioned in the utterance.
 
-### 🔵 Reference Disambiguation (RD)
-> Determine the bounding box or segmentation that best matches the given Japanese expression.
+### 🔵 Reference Resolution (RR)
+> Given a Japanese utterance and an image, and the object mentions from the OI task above, describe where in the image the mentioned objects occur.
 
-### 🔴 Action Prediction (AP)
-> Predict the high-level action (e.g., pick, move, discard) implied by the instruction.
+### 🔴 Next Action Prediction (AP)
+> From the objects identified in the dialogue utterance in the OI task, and the locations in the image described in the RR task, predict the next most probable high-level action (e.g., pick, move, discard) implied by the instruction.
 
-Each task is framed as a **multimodal question answering** problem and can be evaluated with standard accuracy, IoU, or retrieval metrics.
+The three tasks are framed as an **end-to-end multimodal perception** problem and are performed by VLMs. Performance is evaluated with standard accuracy as the major metric.
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Evaluations section  ++++++++ ++++++++ ++++++++ -->
 
@@ -110,15 +136,12 @@ Each task is framed as a **multimodal question answering** problem and can be ev
   🧪 Evaluation and Baselines
 </div>
 
-We benchmark 6 leading **Vision-Language Models (VLMs)** on J-ORA, including:
+We benchmark these leading **Vision-Language Models (VLMs)** on J-ORA, including:
+- **(i) Proprietary:** Claude 3.5 Sonnet, Gemini 1.5 Pro, GPT-4o. 
+- **(ii) General open-source:** Llava v1.6 Mistral 7B, Llava v1.6 Mistral 13B, Qwen2VL 7B Instruct.
+- **(iii) Japanese open-source:** EvoVLM-JP-v1-7B, Japanese-stable-vlm, Bilingual-gpt-neox-4b-minigpt4.
 
-- GPT-4o
-- Gemini 1.5 Flash
-- LLaVa Mistral
-- Qwen-VL
-- Japanese multimodal fine-tuned variants
-
-We compare **zero-shot and fine-tuned** settings under multiple prompting styles.
+We compare **zero-shot and fine-tuned** settings for VLMs **with or without object attributes**.
 <div align="center">
 <img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results1.png?raw=true" style="width: 60%; height: auto;" alt="Data Collection Pipeline Figure">
 <img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/results2.png?raw=true" style="width: 60%; height: auto;" alt="Data Collection Pipeline Figure">  
@@ -132,21 +155,10 @@ We compare **zero-shot and fine-tuned** settings under multiple prompting styles
  🔍 Key Findings
 </div>
 
-- **Limited Zero-Shot Transfer**: Even top models underperform in Japanese disambiguation and action understanding.
 - **Multilingual Gaps Persist**: Despite multilingual training, open-source VLMs showed steep performance drops compared to GPT-4o.
-- **Action Prediction is Harder**: Across models, AP lags behind OI and RD due to implicit reasoning required.
 - **Fine-Tuning Helps**: Language-specific tuning significantly improves model performance, but gains vary by task.
-
-## 📊 Quantitative Summary
-
-| Feature | Value |
-|--------|-------|
-| Images | 1,100 |
-| Object Categories | 80 |
-| Instructions | 3,300+ |
-| Avg Objects per Image | 5.9 |
-| Languages | Japanese |
-| Tasks | OI, RD, AP |
+- **Reference Resolution Bottleneck**: Across models, RR lags behind OI and AP due to the multimodal reasoning required.
+- **Limited Object Affordance**: With or without finetuning, object affordance remains a challenge for all VLMs.
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ Below are the Use Cases/Resources/Citation/Contact sections  ++++++++ ++++++++ ++++++++ -->
 
@@ -159,10 +171,10 @@ We compare **zero-shot and fine-tuned** settings under multiple prompting styles
 J-ORA supports research in:
 
 - Japanese robot instruction following
-- Multilingual grounding and disambiguation
+- Multilingual grounding and reference resolution
 - Vision-language model benchmarking
 - Embodied AI with language grounding
-- Fine-tuning of Japanese VLMs for manipulation tasks
+- Fine-tuning of Japanese VLMs for HRI tasks
 
 ## 🛠 Resources
 
@@ -183,7 +195,7 @@ Coming soon...
 For questions and collaboration inquiries:
 
 - **Jesse Atuhurra** — `atuhurra.jesse.ag2@naist.ac.jp`  
-- **Tatsuya Hiraoka** — `tatsuya.hiraoka@mbzuai.ac.ae`
+- **Koichiro Yoshino** — `koichiro.yoshino@riken.jp`
 
 ## 📜 License
 
