@@ -155,7 +155,7 @@ We compare **zero-shot and fine-tuned** settings for VLMs **with or without obje
  🔍 Key Findings
 </div>
 
-- **Multilingual Gaps Persist**: Despite multilingual training, open-source VLMs showed steep performance drops compared to GPT-4o.
+- **Multilingual Gaps Persist**: Despite multilingual training, open-source VLMs showed steep performance drops compared to GPT-4o across all tasks.
 - **Fine-Tuning Helps**: Language-specific tuning significantly improves model performance, but gains vary by task.
 - **Reference Resolution Bottleneck**: Across models, RR lags behind OI and AP due to the multimodal reasoning required.
 - **Limited Object Affordance**: With or without finetuning, object affordance remains a challenge for all VLMs.
