@@ -8,9 +8,10 @@ Including a **Multimodal Japanese Dataset for Grounding Language and Vision in R
 
 ## 🎉 Accepted to IROS 2025 🤖!
 
-[**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) | [**Code**](https://github.com/jatuhurrra/OpenPerception) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/atamiles/J-ORA)
-
+[**Code**](https://github.com/jatuhurrra/OpenPerception) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/atamiles/J-ORA)
 <!--
+[**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) 
+
 <div style="width: 100%; background-color: #ffccf2; color: #800080; text-align: center; padding: 1em; font-size: 1.4em; font-weight: bold; border-radius: 8px; margin: 2em 0;">
   🎉 Accepted to IROS 2025!
 </div>
