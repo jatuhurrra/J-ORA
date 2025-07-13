@@ -201,5 +201,5 @@ For questions and collaboration inquiries:
 
 The dataset and code are released under:
 
-**CC BY-NC-SA 4.0**  
-Attribution-NonCommercial-ShareAlike International License
+**CC BY-SA 4.0**  
+Attribution-ShareAlike International License
