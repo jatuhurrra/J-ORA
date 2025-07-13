@@ -180,7 +180,7 @@ J-ORA supports research in:
 ## 🛠 Resources
 
 - [**Code**](https://github.com/jatuhurrra/OpenPerception): Task pipelines, training scripts, and evaluation metrics.
-- [**Dataset**](https://huggingface.co/datasets/jatuhurrra/J-ORA): Full annotations and image data.
+- [**Dataset**](https://huggingface.co/datasets/atamiles/J-ORA): Full annotations and image data.
 
   The data introduced in this project extends the [**J-CRe3**](https://github.com/riken-grp/J-CRe3) data.
 
