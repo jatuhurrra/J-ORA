@@ -49,7 +49,7 @@ Yet, most datasets in robot vision-language learning are limited to English and 
 **J-ORA** addresses this gap by introducing a comprehensive **multimodal dataset grounded in Japanese**, containing real-world images and human-annotated linguistic references, actions, and object descriptions.
 
 <div style="background-color:#ffe0f7; border-left: 5px solid #cc00aa; padding: 1em; margin-bottom: 1em;">
-🌟 Highlight: We aim to train robots to excellently perceive and understand the scene despite the dynamic changes in the scene.
+🧩 Highlight: We aim to train robots to excellently perceive and understand the scene despite the dynamic changes in the scene.
 </div>
 
 <img src="https://github.com/jatuhurrra/OpenPerception/blob/main/assets/scenes.png?raw=true" style="width: 100%; height: auto;" alt="Scenes Figure">
@@ -183,12 +183,29 @@ J-ORA supports research in:
 - [**Dataset**](https://huggingface.co/datasets/jatuhurrra/J-ORA): Full annotations and image data.
 - [**Pretrained Models**](https://huggingface.co/jatuhurrra/J-ORA-models): Multilingual VLMs fine-tuned on J-ORA.
 
+  The data introduced in this project extends the [**J-CRe3**](https://github.com/riken-grp/J-CRe3) data.
+
 ## 📄 Citation
 
-If you use J-ORA in your research, please cite:
+If you use J-ORA in your research, please cite these two resources:
 
 ```
-Coming soon...
+IROS 2025 coming soon...
+```
+
+And J-CRe3 below
+
+```
+@inproceedings{ueda-2024-j-cre3,
+  title     = {J-CRe3: A Japanese Conversation Dataset for Real-world Reference Resolution},
+  author    = {Nobuhiro Ueda and Hideko Habe and Yoko Matsui and Akishige Yuguchi and Seiya Kawano and Yasutomo Kawanishi and Sadao Kurohashi and Koichiro Yoshino},
+  booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  month     = may,
+  year      = {2024},
+  url       = {https://aclanthology.org/2024.lrec-main.829},
+  pages     = {9489--9502},
+  address   = {Turin, Italy},
+}
 ```
 
 ## 📬 Contact
@@ -200,7 +217,4 @@ For questions and collaboration inquiries:
 
 ## 📜 License
 
-The dataset and code are released under:
-
-**CC BY-SA 4.0**  
-Attribution-ShareAlike International License
+The dataset and code are released under: **CC BY-SA 4.0**,  i.e., Attribution-ShareAlike International License
