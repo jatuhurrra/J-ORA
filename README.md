@@ -11,7 +11,7 @@ Including a **Multimodal Japanese Dataset for Grounding Language and Vision in R
 <!--
 [**Paper (IROS 2025)**](https://arxiv.org/abs/0000.00000) 
 --> 
-[**Code**](https://github.com/jatuhurrra/OpenPerception) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/atamiles/J-ORA) | [**Website**](https://jatuhurrra.github.io/OpenPerception/)
+[**Code**](https://github.com/jatuhurrra/OpenPerception) | [**Dataset on HuggingFace**](https://huggingface.co/datasets/atamiles/J-ORA) | [**Website**](https://jatuhurrra.github.io/J-ORA/)
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ This is the Overview section (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
 
