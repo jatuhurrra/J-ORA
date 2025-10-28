@@ -177,20 +177,30 @@ J-ORA supports research in:
 
 ## 🛠 Resources
 
-- [**Code**](https://github.com/jatuhurrra/OpenPerception): Task pipelines, training scripts, and evaluation metrics.
+- [**Code**](https://github.com/jatuhurrra/J-ORA): Task pipelines, training scripts, and evaluation metrics.
 - [**Dataset**](https://huggingface.co/datasets/atamiles/J-ORA): Full annotations and image data.
 
   The data introduced in this project extends the [**J-CRe3**](https://github.com/riken-grp/J-CRe3) data.
+
+  **Egocentric video, third-person video, and dialogue audio files** are available at [**this URL**](https://riken-share.ent.box.com/s/25vjhsccliimse0q74z35nv8j5bz31is). Use this Password: `J-CRe3-data`. 
 
 ## 📄 Citation
 
 If you use J-ORA in your research, please cite these two resources:
 
 ```
-IROS 2025 coming soon...
+@misc{atuhurra2025joraframeworkmultimodaldataset,
+      title={J-ORA: A Framework and Multimodal Dataset for Japanese Object Identification, Reference, Action Prediction in Robot Perception}, 
+      author={Jesse Atuhurra and Hidetaka Kamigaito and Taro Watanabe and Koichiro Yoshino},
+      year={2025},
+      eprint={2510.21761},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2510.21761}, 
+}
 ```
 
-And J-CRe3 below
+In addition, please also cite the J-CRe3 work below:
 
 ```
 @inproceedings{ueda-2024-j-cre3,
