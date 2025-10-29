@@ -143,8 +143,6 @@ J-ORA supports research in:
 
   The data introduced in this project extends the [**J-CRe3**](https://github.com/riken-grp/J-CRe3) data.
 
-  The data introduced in this project extends the [**J-CRe3**](https://github.com/riken-grp/J-CRe3) data.
-
   **Egocentric video, third-person video, and dialogue audio files** are available at [**this URL**](https://riken-share.ent.box.com/s/25vjhsccliimse0q74z35nv8j5bz31is). Use this Password: `J-CRe3-data`. 
 
 ### 📄 Citation
