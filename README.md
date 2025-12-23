@@ -148,17 +148,19 @@ J-ORA supports research in:
 ### 📄 Citation
 ---
 
-If you use J-ORA in your research, please cite these two resources:
+If you use J-ORA (https://ieeexplore.ieee.org/document/11246615) in your research, please cite these two resources:
 
 ```
-@misc{atuhurra2025joraframeworkmultimodaldataset,
-      title={J-ORA: A Framework and Multimodal Dataset for Japanese Object Identification, Reference, Action Prediction in Robot Perception}, 
-      author={Jesse Atuhurra and Hidetaka Kamigaito and Taro Watanabe and Koichiro Yoshino},
-      year={2025},
-      eprint={2510.21761},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2510.21761}, 
+@INPROCEEDINGS{11246615,
+  author={Atuhurra, Jesse and Kamigaito, Hidetaka and Watanabe, Taro and Yoshino, Koichiro},
+  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={J-ORA: A Framework and Multimodal Dataset for Japanese Object Identification, Reference, Action Prediction in Robot Perception}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={2653-2660},
+  keywords={Codes;Annotations;Shape;Image color analysis;Affordances;Object detection;Spatial resolution;Robots;Tuning;Intelligent robots},
+  doi={10.1109/IROS60139.2025.11246615}
 }
 ```
 
